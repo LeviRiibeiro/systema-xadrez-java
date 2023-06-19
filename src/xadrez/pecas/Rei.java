@@ -11,7 +11,7 @@ public class Rei extends PecadeXadres {
 
     @Override
     public String toString() {
-        return "R";
+        return "♚";
     }
 
 }

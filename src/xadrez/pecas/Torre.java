@@ -11,7 +11,7 @@ public class Torre extends PecadeXadres {
 
     @Override
     public String toString() {
-        return "T";
+        return "♜";
     }
 
 }
