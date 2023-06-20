@@ -2,9 +2,9 @@ package xadrez.pecas;
 
 import tabuleiro.Tabuleiro;
 import xadrez.Cor;
-import xadrez.PecadeXadres;
+import xadrez.PecadeXadrez;
 
-public class Rei extends PecadeXadres {
+public class Rei extends PecadeXadrez {
     public Rei(Tabuleiro tabuleiro, Cor cor){
         super(tabuleiro, cor);
     }

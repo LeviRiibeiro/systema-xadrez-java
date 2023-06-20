@@ -1,10 +1,10 @@
 package aplicacao;
 
-import xadrez.PecadeXadres;
+import xadrez.PecadeXadrez;
 
 public class UI {
 
-    public static void printBoard(PecadeXadres[][] peca) {
+    public static void printBoard(PecadeXadrez[][] peca) {
         for (int i=0; i<peca.length; i++){
             System.out.print((8 - i) + " ");
             for (int j=0; j<peca.length; j++) {
@@ -14,7 +14,7 @@ public class UI {
         }
         System.out.println("  a b c d e f g h ");
     }
-      private static void printPeca(PecadeXadres peca) {
+      private static void printPeca(PecadeXadrez peca) {
         if (peca == null) {
             System.out.print("-");
         }

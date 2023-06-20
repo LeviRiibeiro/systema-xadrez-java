@@ -2,12 +2,13 @@ package aplicacao;
 
 import tabuleiro.Posicao;
 import tabuleiro.Tabuleiro;
-import xadrez.PartidadeXadrez;
+import xadrez.PartidaDeXadrez;
+
 
 public class Programa {
     public static void main(String[] args) {
 
-        PartidadeXadrez partidadeXadrez = new PartidadeXadrez();
+        PartidaDeXadrez partidadeXadrez = new PartidaDeXadrez();
         UI.printBoard(partidadeXadrez.getPecas());
 
     }
